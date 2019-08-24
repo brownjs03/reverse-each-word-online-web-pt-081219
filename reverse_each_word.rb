@@ -10,9 +10,4 @@ def reverse_each_word(string)
  phrase.join(" ")
 end
 
-#why does do not work like {}
-
-#def reverse_each_word(string)
- #string.split.collect do |word|
- #word.reverse.join
-#end
+#why does do/end not work like {}, is this the only way to join it with do/end. I realized it is operating with each block. 
