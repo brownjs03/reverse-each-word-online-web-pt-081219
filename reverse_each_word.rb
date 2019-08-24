@@ -3,11 +3,11 @@
 #end
 
 def reverse_each_word(string)
-  phrase = ""
+  phrase = []
  string.split.collect do |word| 
-  phrase << word.reverse + " "
+  phrase << word.reverse
  end
- phrase
+ phrase.join(" ")
 end
 
 #above doesn't work, curious how to make it work. 
