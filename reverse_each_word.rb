@@ -3,6 +3,7 @@
 #end
 
 def reverse_each_word(string)
+  phrase = ""
  string.split.collect do |word| 
   phrase << word.reverse
  end
