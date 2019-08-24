@@ -4,6 +4,9 @@
 
 def reverse_each_word(string)
  string.split.collect do |word| 
-   word.reverse.join(" ")
+  phrase << word.reverse
  end
+ phrase
 end
+
+#above doesn't work, curious how to make it work. 
